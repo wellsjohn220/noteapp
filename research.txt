@@ -1,0 +1,8 @@
+flask
+Flask-SQLAlchemy
+flask-login
+
+pip install gunicorn
+echo > Procfile
+pip freeze > requirements.txt
+pip install MarkupSafe
