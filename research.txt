@@ -1,12 +1,15 @@
-flask
+flask                                               install
 Flask-SQLAlchemy
 flask-login
 
-pip install gunicorn
+pip install gunicorn                                deploy
 echo > Procfile
 pip freeze > requirements.txt
 pip install MarkupSafe
 
-https://noteappbyjohn.herokuapp.com/
+heroku apps
+heroku git:remote -a noteappbyjohn
+
+https://noteappbyjohn.herokuapp.com/                current site url
 
 https://www.youtube.com/watch?v=6plVs_ytIH8         about deploy app is the super
